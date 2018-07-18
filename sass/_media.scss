@@ -1,0 +1,38 @@
+
+@import "vars";
+
+/* Medium Devices, Desktops */
+@media screen and (max-width:830px) {
+
+  nav .menu .navigation{
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+    align-items: center;
+    border-top: 1px solid rgba(222,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
+}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 500px) {
+header .m-d-l .logo{
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+  nav .menu .navigation{
+    //display: none;
+  }
+  nav .menu i{
+    color: $c-w;
+    font-size: 29px;
+    padding: 7px 10px;
+    display: block;
+  }
+  nav .menu i:hover{
+    color: #90c742;
+  }
+}
